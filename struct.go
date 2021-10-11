@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+
+type Person struct {
+	name string
+	age int
+	sex string
+	address string
+}
+
+
 func main() {
 	var p1 Person
 	fmt.Println(p1)
@@ -51,9 +60,3 @@ func main() {
 	 fmt.Println(*pptr2)
 }
 
-type Person struct {
-	name string
-	age int
-	sex string
-	address string
-}
